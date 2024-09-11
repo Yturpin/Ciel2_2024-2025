@@ -10,6 +10,6 @@ Segment::Segment(double _longueur, double _angle) :
 
 void Segment::afficher()
 {
-    cout << "SEGMENT L = " << longueur << "   A = " << angle << endl;
+    cout << "SEGMENT L = " << longueur << "   A = " << angle << "   V = " << vitesse << endl;
     //cout << "SEGMENT L = " << longueur << endl;
 }

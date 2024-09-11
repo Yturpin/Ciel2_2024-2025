@@ -12,8 +12,8 @@ public:
 
 private:
     int nbEtapesMax;
-    int prochaineEtape;
-    Element ** parcours;
+    int prochaineEtape;         //
+    Element ** parcours;        //tableau dynamique de pointeurs qui stock les éléments
 };
 
 #endif // TRAJECTOIRE_H
