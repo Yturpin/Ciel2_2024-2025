@@ -1,9 +1,14 @@
 #include "element.h"
 
-Element::Element()
+/**
+ * @brief Element::Element
+ * constructeur avec liste d'initialistion
+ */
+Element::Element(double _vitesse):
+    numero(0),
+    vitesse(_vitesse)
 {
-    numero = 0;
-    vitesse = 1;
+
 }
 
 Element::~Element()
@@ -16,7 +21,7 @@ int Element::getNumero()
     return numero;
 }
 
-void Element::setNumero()
+void Element::setNumero(const int _numero)
 {
-    numero = 1;
+    numero = _numero;
 }

@@ -14,7 +14,9 @@ int main()
 
     uneTrajectoire.afficher();
 
+    /*
     unSegment.afficher();
     deuxiemeSegment.afficher();
+    */
     return 0;
 }

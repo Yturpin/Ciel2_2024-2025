@@ -4,15 +4,15 @@
 class Element
 {
 public:
-    Element();
+    Element(double _vitesse = 1);
     virtual ~Element();
     virtual void afficher() = 0;
     virtual int getNumero();      //accesseur --> récupérer le contenu de l'attribut numero
-    virtual void setNumero();      //mutateur --> modification de l'attribut numero
+    virtual void setNumero(const int _numero);      //mutateur --> modification de l'attribut numero
 
 protected:
     int numero;
-    int vitesse;
+    double vitesse;
 };
 
 #endif // ELEMENT_H
