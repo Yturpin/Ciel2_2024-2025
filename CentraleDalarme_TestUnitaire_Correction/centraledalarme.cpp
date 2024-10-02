@@ -34,6 +34,7 @@ void CentraleDalarme::FabriquerCode(const quint8 _chiffre)
     }
 }
 
+//fonction amie
 QDebug operator<<(QDebug _debug, const CentraleDalarme &_centrale)
 {
     QString tampon = "Combinaison = ";
