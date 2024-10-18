@@ -20,6 +20,10 @@ public:
 
 private slots:
     void on_pushButtonIntrus_clicked();
+    virtual void on_pushButtonPresence_clicked();
+
+signals:
+    void IntrusDetecte();
 
 private:
     Ui::Detecteur *ui;

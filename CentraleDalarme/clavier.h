@@ -6,6 +6,7 @@
 #include <QString>
 #include <QTimer>
 #include <detecteur.h>
+#include <centraledalarme.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

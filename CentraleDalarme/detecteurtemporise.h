@@ -7,6 +7,10 @@ class DetecteurTemporise : public Detecteur
 {
 public:
     DetecteurTemporise();
+    ~DetecteurTemporise();
+    void LancerTempo();
+private slots:
+    void on_pushButtonPresence_clicked();
 private:
     QTimer timerPresence;
 };
